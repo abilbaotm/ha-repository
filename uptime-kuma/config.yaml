@@ -14,5 +14,5 @@ ports_description:
   3001/tcp: Web interface
 slug: uptime-kuma
 url: https://github.com/abilbaotm/addon-uptime-kuma
-version: latest
+version: 0.5.2
 webui: http://[HOST]:[PORT:3001]
