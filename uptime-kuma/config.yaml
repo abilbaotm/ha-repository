@@ -6,7 +6,7 @@ arch:
   - i386
 codenotary: codenotary@frenck.dev
 description: It is a self-hosted monitoring tool like "Uptime Robot"
-image: ghcr.io/hassio-addons/uptime-kuma/{arch}
+image: registry.gitlab.com/abilbaotm/addon-uptime-kuma:latest
 init: false
 name: Uptime Kuma
 ports:
@@ -15,5 +15,5 @@ ports_description:
   3001/tcp: Web interface
 slug: uptime-kuma
 url: https://github.com/abilbaotm/addon-uptime-kuma
-version: main
+version: latest
 webui: http://[HOST]:[PORT:3001]
