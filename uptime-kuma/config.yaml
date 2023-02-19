@@ -1,9 +1,5 @@
 arch:
   - aarch64
-  - amd64
-  - armhf
-  - armv7
-  - i386
 description: It is a self-hosted monitoring tool like "Uptime Robot"
 image: registry.gitlab.com/abilbaotm/addon-uptime-kuma
 init: false
