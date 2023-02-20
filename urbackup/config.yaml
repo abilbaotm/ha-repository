@@ -6,7 +6,7 @@ init: false
 name: Urbackup
 slug: urbackup
 url: https://gitlab.com/abilbaotm/hassio-urbackup
-version: latest
+version: 0.1.0
 schema:
   URBACKUP_SERVER_NAME: str
   URBACKUP_CLIENT_NAME: str
