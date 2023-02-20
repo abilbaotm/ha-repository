@@ -9,5 +9,9 @@ url: https://gitlab.com/abilbaotm/hassio-urbackup
 version: latest
 schema:
   URBACKUP_SERVER_NAME: str
+  URBACKUP_CLIENT_NAME: str
+  URBACKUP_CLIENT_AUTHKEY: str
 options:
   URBACKUP_SERVER_NAME: urbackup-server.local
+  URBACKUP_CLIENT_NAME: homeassistant.local
+  URBACKUP_CLIENT_AUTHKEY: 1234567890ABC
