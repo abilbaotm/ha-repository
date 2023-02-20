@@ -1,0 +1,9 @@
+arch:
+  - aarch64
+description: Backup client
+image: registry.gitlab.com/abilbaotm/hassio-urbackup
+init: false
+name: Urbackup
+slug: urbackup
+url: https://gitlab.com/abilbaotm/hassio-urbackup
+version: latest
