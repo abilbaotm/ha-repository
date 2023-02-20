@@ -7,3 +7,7 @@ name: Urbackup
 slug: urbackup
 url: https://gitlab.com/abilbaotm/hassio-urbackup
 version: latest
+schema:
+  - URBACKUP_SERVER_NAME: str
+options:
+  - URBACKUP_SERVER_NAME: urbackup-server.local
